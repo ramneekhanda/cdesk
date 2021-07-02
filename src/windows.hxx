@@ -31,6 +31,7 @@ struct CoinsWindow {
 
 struct CodeWindow {
     TextEditor editor;
+
     void RenderWindows() {
         ImGui::Begin("Text Editor Demo", nullptr, ImGuiWindowFlags_HorizontalScrollbar);
         editor.Render("TextEditor");
